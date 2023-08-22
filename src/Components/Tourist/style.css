@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    flex-flow: row;
+    width: 95%;
+    justify-content: space-between;
+    margin: auto;
+}
+.first-container{
+    flex-basis: 48%;
+    height: 800px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+}
+.first-container img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.first-container div , .second-first div, .second-last div{
+    height: 48%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    
+}
+
+.second-first div, .second-last div{
+    height: 100%;
+    margin-left: 5px;
+}
+.first-container div a , .second-first div a, .second-last div a{
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+.second-container{
+    display: flex;
+    flex-flow: column;
+    flex-basis: 48%;
+    height: 800px;
+    justify-content: space-between;
+    gap: 5px;
+}
+.second-first{
+    display: flex;
+    flex-flow: row;
+    flex-basis: 50%;
+    width: 100%;
+}
+.second-first img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.second-last{
+    display: flex;
+    flex-flow: row;
+    flex-basis: 50%;
+}
+.second-last img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}

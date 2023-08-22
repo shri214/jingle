@@ -1,0 +1,30 @@
+.slick-list {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+.para {
+  font-size: 4rem;
+  position: absolute;
+  top: 40vh;
+  left: 20vw;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+}
+.btns {
+  font-size: 2rem;
+  position: absolute;
+  top: 60vh;
+  left: 45vw;
+  color: white;
+  background-color: black;
+  font-weight: 400;
+  height: 70px;
+  border-radius: 50px;
+  padding: 15px;
+}
+.btns:hover{
+    background-color: white;
+    color: black;
+}

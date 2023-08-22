@@ -1,0 +1,44 @@
+.box{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 30%;
+    border: 2px solid rgb(230, 220, 220);
+    height: fit-content;
+    padding: 5px;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 4px rgba(230, 220, 220,0.5);
+}
+.box h1{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 5px 0px;
+}
+.box h2{
+    font-size: 1.7rem;
+    margin: 5px 0px;
+    font-weight: 400;
+    text-align: center;
+}
+.box p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 31px;
+}
+.MuiSvgIcon-root {
+    font-size: 4rem !important;
+    color: green;
+    margin: 10px;
+}
+.MuiSvgIcon-root:hover{
+    color: lawngreen;
+    font-size: 6rem !important;
+}
+.btn{
+    height: 55px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    padding: 5px;
+}
