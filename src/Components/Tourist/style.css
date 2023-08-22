@@ -12,7 +12,6 @@
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid;
 }
 .first-container img{
     height: 50%;
